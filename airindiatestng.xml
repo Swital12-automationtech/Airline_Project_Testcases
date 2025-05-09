@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="packageofairindiaproject.Airindia_Project.TestCase1_Registration_Airindia"/>
+      <class name="packageofairindiaproject.Airindia_Project.TestCase2_Login_ValidCredentials"/>
+      <class name="packageofairindiaproject.Airindia_Project.TestCase3_Login_InvalidCredentials"/>
+      <class name="packageofairindiaproject.Airindia_Project.TestCase4_Search_OneWay"/>
+      <class name="packageofairindiaproject.Airindia_Project.TestCase5_Search_TwoWays"/>
+      <class name="packageofairindiaproject.Airindia_Project.TestCase6_Search_Class"/>
+      <class name="packageofairindiaproject.Airindia_Project.TestCase7_Search_MultiCity"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
