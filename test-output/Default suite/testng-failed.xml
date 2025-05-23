@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="packageofairindiaproject.Airindia_Project.TestCase4_Search_OneWay">
+      <class name="packageofairindiaproject.Airindia_Project.TestCase7_Search_MultiCity">
         <methods>
           <include name="launch"/>
-          <include name="searchonewayflight"/>
+          <include name="search_multicity"/>
           <include name="quit"/>
         </methods>
-      </class> <!-- packageofairindiaproject.Airindia_Project.TestCase4_Search_OneWay -->
+      </class> <!-- packageofairindiaproject.Airindia_Project.TestCase7_Search_MultiCity -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

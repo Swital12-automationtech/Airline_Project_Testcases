@@ -10,13 +10,13 @@
           <include name="quit"/>
         </methods>
       </class> <!-- packageofairindiaproject.Airindia_Project.TestCase7_Search_MultiCity -->
-      <class name="packageofairindiaproject.Airindia_Project.TestCase3_Login_InvalidCredentials">
+      <class name="packageofairindiaproject.Airindia_Project.TestCase4_Search_OneWay">
         <methods>
-          <include name="invalidlogincredentails"/>
           <include name="launch"/>
+          <include name="searchonewayflight"/>
           <include name="quit"/>
         </methods>
-      </class> <!-- packageofairindiaproject.Airindia_Project.TestCase3_Login_InvalidCredentials -->
+      </class> <!-- packageofairindiaproject.Airindia_Project.TestCase4_Search_OneWay -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

@@ -44,7 +44,7 @@ WebElement multiselectdate;
 WebElement multiselectmonth;
 @FindBy(xpath = "//select[contains(@title, 'Select year')]")
 WebElement multiselectyear;
-@FindBy(xpath = "(//div[@class='ngb-dp-month ng-star-inserted']/child::ngb-datepicker-month/child::*)[3]/div")
+@FindBy(xpath = "(//div[@class='ngb-dp-month']/child::ngb-datepicker-month/child::*)[3]/div")
 List<WebElement> multiselectdate1;
 public void onewayradiobtn(WebDriver driver) 
 {

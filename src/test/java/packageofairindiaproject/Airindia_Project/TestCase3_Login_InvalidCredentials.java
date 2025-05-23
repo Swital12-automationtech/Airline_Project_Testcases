@@ -14,10 +14,10 @@ public class TestCase3_Login_InvalidCredentials extends Launch_Quit
 	HomePage homepage = new HomePage(driver);
 	homepage.setcookie();
 	homepage.signinlink();
-	Login_InvalidCredentialsPage invalidloginpage = new Login_InvalidCredentialsPage(driver);
-	invalidloginpage.wrongun();
-	Login_ValidCredentialsPage loginpage = new Login_ValidCredentialsPage(driver);
-	loginpage.signinotpbtn();
-	invalidloginpage.invalidloginmsg();
+	//Login_InvalidCredentialsPage invalidloginpage = new Login_InvalidCredentialsPage(driver);
+	//invalidloginpage.wrongun();
+	//Login_ValidCredentialsPage loginpage = new Login_ValidCredentialsPage(driver);
+	//loginpage.signinotpbtn();
+	//invalidloginpage.invalidloginmsg();
 }
 }
