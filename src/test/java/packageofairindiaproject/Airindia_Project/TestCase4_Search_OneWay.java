@@ -6,7 +6,8 @@ import org.testng.annotations.Test;
 
 public class TestCase4_Search_OneWay extends Launch_Quit
 {
-@Test(retryAnalyzer = IRetry_Logic.class)
+@Test
+//(retryAnalyzer = IRetry_Logic.class)
 public void searchonewayflight() throws InterruptedException
 {
 	HomePage homepage = new HomePage(driver);

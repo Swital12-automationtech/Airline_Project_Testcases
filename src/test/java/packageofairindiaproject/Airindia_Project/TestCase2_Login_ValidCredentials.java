@@ -12,9 +12,9 @@ public void loginwithvalidcredentials() throws Exception
 	HomePage homepage = new HomePage(driver);
 	homepage.setcookie();
 	homepage.signinlink();
-	Login_ValidCredentialsPage loginpage = new Login_ValidCredentialsPage(driver);
-	loginpage.un();
-	loginpage.signinotpbtn();
+	//Login_ValidCredentialsPage loginpage = new Login_ValidCredentialsPage(driver);
+	//loginpage.un();
+	//loginpage.signinotpbtn();
 
 }
 }

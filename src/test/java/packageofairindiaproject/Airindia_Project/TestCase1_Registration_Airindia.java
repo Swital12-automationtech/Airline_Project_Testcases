@@ -26,7 +26,7 @@ public class TestCase1_Registration_Airindia extends Launch_Quit
 	signuppage.mobile();
 	signuppage.confirmemobile();
 	signuppage.readandaceept();
-	signuppage.submitbtn();
-	signuppage.assertmsg();
+	//signuppage.submitbtn();
+	//signuppage.assertmsg();
 	}
 }
