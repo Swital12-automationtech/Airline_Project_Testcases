@@ -15,21 +15,6 @@ This project is an end-to-end test automation framework developed to simulate re
 - CI Tool: Jenkins  
 - Version Control: GitHub  
 
-## Project Structure
-
-AirlineTestAutomation/
-├── ExcelSheet/ # Test data in Excel format
-├── Screenshot/ # Captured screenshots
-├── airlineproject/ # Base structure (main classes/utilities)
-├── src/
-│ ├── main/java/pages/ # Page classes (LoginPage, SearchPage, etc.)
-│ └── test/java/tests/ # TestNG test cases
-├── test-output/ # TestNG output reports
-├── pom.xml # Maven dependencies and build configuration
-├── testng.xml # TestNG suite
-└── parallel.xml # Parallel test execution config
-
-
 ## Test Scenarios Covered
 
 1. Verify that users can successfully register for a new account  
